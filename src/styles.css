@@ -262,6 +262,53 @@ a {
   font-size: 1.45rem;
 }
 
+.reservation-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.reserve-card {
+  min-height: 178px;
+  padding: 18px;
+  border: 1px solid rgba(23, 32, 51, 0.1);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 18px 48px rgba(25, 38, 62, 0.08);
+}
+
+.reserve-card div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.reserve-card span {
+  color: #0f766e;
+  font-weight: 900;
+}
+
+.reserve-card b {
+  border-radius: 8px;
+  padding: 5px 8px;
+  color: #7c2d12;
+  background: #ffedd5;
+  font-size: 0.8rem;
+}
+
+.reserve-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.reserve-card p {
+  margin: 0;
+  color: #566174;
+  line-height: 1.65;
+}
+
 .day-tabs {
   display: flex;
   gap: 8px;
@@ -392,7 +439,25 @@ a {
   font-weight: 700;
 }
 
+.timeline .reserve-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: #7c2d12;
+  background: #fff7ed;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
 .timeline .transport svg {
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+
+.timeline .reserve-note svg {
   flex: 0 0 auto;
   margin-top: 3px;
 }
@@ -574,7 +639,8 @@ a {
   .split-section,
   .install-section,
   .day-panel,
-  .trip-basics {
+  .trip-basics,
+  .reservation-grid {
     grid-template-columns: 1fr;
   }
 
