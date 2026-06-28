@@ -17,7 +17,7 @@
   <path d="M132 606 C235 526 276 414 373 378 C492 334 566 386 661 310 C765 225 874 222 1000 172" fill="none" stroke="#0f766e" stroke-width="12" stroke-linecap="round" stroke-dasharray="22 18"/>
 
   <text x="64" y="88" fill="#172033" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="900">Busan 2026 每日活動範圍</text>
-  <text x="66" y="128" fill="#556070" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="700">同區排一起：海雲台 / 東釜山 / 南浦影島 / 廣安里 / 西面田浦</text>
+  <text x="66" y="128" fill="#556070" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="700">截圖版主線：松島南浦 / 甘川海雲台 / 龍宮寺機張 / 廣安里 / 西面田浦</text>
 
   <g filter="url(#shadow)">
     <rect x="76" y="430" width="242" height="132" rx="22" fill="#0f766e"/>
@@ -29,22 +29,22 @@
   <g filter="url(#shadow)">
     <rect x="392" y="168" width="300" height="146" rx="22" fill="#2563eb"/>
     <text x="420" y="214" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="900">DAY 2</text>
-    <text x="420" y="252" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">尾浦・青沙浦・機張</text>
-    <text x="420" y="286" fill="#dbeafe" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">膠囊列車、龍宮寺、Luge、吃蟹</text>
+    <text x="420" y="252" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">松島・白淺灘・南浦</text>
+    <text x="420" y="286" fill="#dbeafe" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">纜車、Arte、韓式烤肉、BIFF</text>
   </g>
 
   <g filter="url(#shadow)">
     <rect x="178" y="248" width="286" height="142" rx="22" fill="#d97706"/>
     <text x="206" y="294" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="900">DAY 3</text>
-    <text x="206" y="332" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">南浦・松島・影島</text>
-    <text x="206" y="366" fill="#fff7ed" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">豚笑、纜車、白淺灘、Momos</text>
+    <text x="206" y="332" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">甘川・富平・海雲台</text>
+    <text x="206" y="366" fill="#fff7ed" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">文化村、市場、膠囊、DIART</text>
   </g>
 
   <g filter="url(#shadow)">
     <rect x="700" y="326" width="288" height="150" rx="22" fill="#7c3aed"/>
     <text x="728" y="372" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="900">DAY 4</text>
-    <text x="728" y="410" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">Centum・廣安里</text>
-    <text x="728" y="444" fill="#f3e8ff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">新世界、烤肉、遊艇、無人機</text>
+    <text x="728" y="410" fill="#ffffff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="800">龍宮寺・機張・廣安里</text>
+    <text x="728" y="444" fill="#f3e8ff" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18">鮑魚粥、吃蟹、Spa、遊船</text>
   </g>
 
   <g filter="url(#shadow)">
@@ -58,11 +58,11 @@
     <circle cx="174" cy="590" r="9" fill="#0f766e"/>
     <text x="190" y="596">海雲台</text>
     <circle cx="552" cy="324" r="9" fill="#2563eb"/>
-    <text x="568" y="330">東釜山</text>
+    <text x="568" y="330">松島/南浦</text>
     <circle cx="278" cy="406" r="9" fill="#d97706"/>
-    <text x="294" y="412">南浦/影島</text>
+    <text x="294" y="412">甘川/富平</text>
     <circle cx="838" cy="496" r="9" fill="#7c3aed"/>
-    <text x="854" y="502">廣安里</text>
+    <text x="854" y="502">龍宮寺/廣安里</text>
     <circle cx="650" cy="724" r="9" fill="#db2777"/>
     <text x="666" y="730">西面/田浦</text>
   </g>
