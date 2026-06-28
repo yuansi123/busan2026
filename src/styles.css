@@ -157,6 +157,12 @@ a {
   margin-top: 34px;
 }
 
+.trip-basics {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 14px;
+}
+
 .section-heading {
   margin-bottom: 16px;
 }
@@ -174,6 +180,86 @@ a {
 
 .section-heading.compact h2 {
   font-size: 1.35rem;
+}
+
+.local-name {
+  margin: 0 0 16px;
+  color: #64748b;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.fact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(23, 32, 51, 0.09);
+}
+
+.fact-row span {
+  color: #64748b;
+  font-weight: 800;
+}
+
+.fact-row strong {
+  text-align: right;
+}
+
+.soft-note {
+  margin: 14px 0 0;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #134e4a;
+  background: #eef6f3;
+  line-height: 1.7;
+}
+
+.flight-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.flight-card {
+  min-height: 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid rgba(23, 32, 51, 0.1);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.flight-card div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.flight-card span,
+.flight-card small {
+  color: #64748b;
+  font-weight: 700;
+}
+
+.flight-card strong {
+  color: #0f766e;
+  font-size: 1.4rem;
+}
+
+.flight-card p {
+  margin: 4px 0 0;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.flight-card b {
+  margin-top: auto;
+  color: #172033;
+  font-size: 1.45rem;
 }
 
 .day-tabs {
@@ -237,6 +323,24 @@ a {
   line-height: 1.7;
 }
 
+.uber-tip {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  color: #172033;
+  background: #fff7db;
+  line-height: 1.65;
+}
+
+.uber-tip svg {
+  flex: 0 0 auto;
+  margin-top: 4px;
+  color: #d97706;
+}
+
 .timeline {
   display: grid;
   gap: 14px;
@@ -275,6 +379,24 @@ a {
   line-height: 1.65;
 }
 
+.timeline .transport {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 9px 10px;
+  border-radius: 8px;
+  color: #17443f;
+  background: #eef6f3;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.timeline .transport svg {
+  flex: 0 0 auto;
+  margin-top: 3px;
+}
+
 .split-section {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
@@ -292,9 +414,11 @@ a {
 
 .food-day {
   display: grid;
-  grid-template-columns: 72px 1fr;
+  grid-template-columns: 88px 1fr;
   gap: 12px;
   align-items: start;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(23, 32, 51, 0.08);
 }
 
 .food-day strong {
@@ -314,6 +438,14 @@ a {
   color: #143f3a;
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.food-day p {
+  grid-column: 2;
+  margin: -2px 0 0;
+  color: #64748b;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .checklist {
@@ -373,6 +505,9 @@ a {
 }
 
 .tips-grid h3 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
   margin: 0 0 10px;
   color: #0f766e;
 }
@@ -390,6 +525,14 @@ a {
 .tips-grid svg {
   flex: 0 0 auto;
   margin-top: 2px;
+}
+
+.transport-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.meals-grid {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .install-section {
@@ -430,7 +573,8 @@ a {
   .tips-grid,
   .split-section,
   .install-section,
-  .day-panel {
+  .day-panel,
+  .trip-basics {
     grid-template-columns: 1fr;
   }
 
@@ -468,6 +612,14 @@ a {
   }
 
   .food-day {
+    grid-template-columns: 1fr;
+  }
+
+  .food-day p {
+    grid-column: 1;
+  }
+
+  .flight-grid {
     grid-template-columns: 1fr;
   }
 

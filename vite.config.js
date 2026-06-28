@@ -9,14 +9,15 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: '釜山 5 天 4 夜行程',
-        short_name: '釜山行程',
-        description: '可安裝到手機查看的釜山五天四夜旅遊 PWA',
+        name: 'Busan 2026 釜山五天四夜',
+        short_name: 'Busan 2026',
+        description: '2026 釜山五天四夜 PWA 行程，包含航班、飯店、景點、美食與交通時間。',
         theme_color: '#0f766e',
         background_color: '#f7f3ed',
         display: 'standalone',
         orientation: 'portrait',
         start_url: '/',
+        lang: 'zh-TW',
         icons: [
           {
             src: 'icon-192.png',
